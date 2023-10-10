@@ -1,0 +1,24 @@
+---
+title: "Extreme Weather Analysis"
+output: html_notebook
+---
+
+
+```{r}
+#loading the data
+df=read.csv('train_dataset.csv')
+
+#First few observations
+head(df)
+```
+## Understanding the Data
+```{r}
+#Getting a summary of the Data
+summary(df)
+
+```
+```{r}
+#Checking for missing values
+
+```
+
